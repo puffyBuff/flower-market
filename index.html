@@ -3,13 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Flower Market</title>
 </head>
-<body>
-    <header>
-        <nav>
-            
+<body class="inter-normal">
+
+    <header class="header">
+        <nav class="navbar display-flex">
+            <img class="logo" src="assets/logo.png" alt="logo-img">
+            <ul class="nav-list display-flex">
+                <li class="nav-item font-16 hidden"><a href="" class="nav-link text-dark bold">Home</a></li>
+                <li class="nav-item font-16 hidden"><a href="" class="nav-link text-light">Shop</a></li>
+                <li class="nav-item font-16 hidden"><a href="" class="nav-link text-light">About us</a></li>
+                <li class="nav-item font-16 special-cart display-flex"><img class="cart-image" src="assets/cart-icon-1.webp" alt=""><a href="" class="nav-link text-black">Cart ($56)</a></li>
+            </ul>
         </nav>
+        
+        <div class="banner display-flex">
+            <div class="banner-container">
+                <h2 class="banner-title noto-serif">
+                    ALWAYS <span class="text-color-orange">FRESH</span>
+                    <br>
+                    <span class="text-color-orange">FLOWERS</span>
+                </h2>
+                <p class="banner-description text-normal">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+                </p>
+            </div>
+            <div class="banner-image">
+                <img src="assets/hero-flower.png" alt="banner image">
+            </div>
+        </div>
     </header>
     
 </body>

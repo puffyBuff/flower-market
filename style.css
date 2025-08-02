@@ -1,1 +1,171 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #F5F8FF;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.text-dark{
+    color: #252432;
+}
+
+.text-black{
+    color: #000000;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.text-light{
+    color: #8987A1;
+}
+
+.text-normal{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-bold{
+    color: #111111;
+}
+
+.text-color-orange{
+    color: #E95A08;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.font-22{
+    font-size: 22px;
+}
+
+.font-28{
+    font-size: 28px;
+}
+
+.font-40{
+    font-size: 40px;
+}
+
+.font-50{
+    font-size: 50px;
+}
+
+.btn-primary{
+    width: 270px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.navbar,
+.banner,
+.plant-section,
+.plants-lover-section,
+.latest-deals-section{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+/*navbar styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-list {
+  gap: 48px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.cart-image{
+    width: 24px;
+    height: 24px;
+}
+
+.special-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+/* banner styles */
+
+.banner{
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.banner-container{
+    margin-top: 162px;
+    height: 299px;
+}
+
+.banner-container, .banner-image{
+    width: 50%;
+}
+
+.banner-title{
+    margin-top: 0px;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.banner-description{
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.banner-image{
+    margin-top: 106px;
+    height: 355px;
+}
