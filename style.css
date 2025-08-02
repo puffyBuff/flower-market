@@ -169,3 +169,43 @@ body{
     margin-top: 106px;
     height: 355px;
 }
+/* section styles */
+
+/* plant-section */
+.plant-section{
+    margin-top: 120px;
+}
+
+.plant-title{
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.plant-description{
+    margin-top: 16px;
+}
+
+.cart{
+    margin-top: 49px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.flower-details-container{
+    margin: 30px 69px;
+    text-align: center;
+}
+
+.flower-details{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.flower-price{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    gap: 30px;
+}
+
