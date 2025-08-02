@@ -208,4 +208,36 @@ body{
     margin-bottom: 0px;
     gap: 30px;
 }
+/* plants-lover-section */
+.plants-lover-section{
+    margin-top: 210px;
+}
+
+.plants-lover-section, .plants-lover-container{
+    display: flex;
+}
+
+.flower-store-image{
+    width: 540px;
+    height: auto;
+}
+
+.trusted-badge-image{
+    width: 286px;
+    height: 286px;
+    margin-top: -150px;
+    margin-left: -190px;
+}
+
+.plants-lover-info{
+    margin: 38px 0px 38px 60px;
+}
+
+.plant-lover-info ul{
+    margin-top: 0px;
+}
+
+.plants-lover-title{
+    margin-bottom: 0px;
+}
 
