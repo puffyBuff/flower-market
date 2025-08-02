@@ -240,4 +240,104 @@ body{
 .plants-lover-title{
     margin-bottom: 0px;
 }
+/* latest-deals section styles*/
+.latest-deals-section{
+    margin-top: 133px;
+}
+
+.latest-deals-info-title{
+    margin-bottom: 16px;
+}
+
+.latest-deals-info-description{
+    margin: 0 auto;
+    width: 888px;
+    height: auto;
+}
+
+.latest-deals-image-container{
+    margin-top: 120px;
+    gap: 28px;
+}
+
+.image-11{
+    margin-bottom: 25px;
+}
+
+.image-11, .image-12, .image-21{
+    border-radius: 14px;
+}
+
+.image-11, .image-12, .image-21{
+    /* filter: brightness(100%); */
+} 
+
+.image-2 .zabo-plant{
+    margin-top: -250px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.image-2 .shop{
+    font-weight: 500px;
+    font-size: 28px;
+}
+
+.bloom-plant{
+    margin-left: -290px;
+    margin-top: 70px;
+}
+
+.bloom-plant-shop{
+    margin-left: -150px;
+    margin-top: 110px;
+}
+
+.ana-plant{
+    margin-top: -120px;
+    margin-bottom: 10px;
+}
+
+/* join-section */
+
+.join-section{
+    margin: 0 auto;
+    width: 1440px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+.subscribe-button{
+    color: #FFFFFF;
+    background-color: #E95A08;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    margin-left: -5px ;
+    margin-top: -5px ;
+}
+
+.join{
+    margin-top: -400px;
+}
+
+.join h3{
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.input input[type="email"]{
+    width: 644px;
+    height: 50px;
+    background-color: #FFFFFF;
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 500px;
+    border: none ;
+}
 
